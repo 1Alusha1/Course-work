@@ -1,0 +1,59 @@
+.remove_form {
+    position: absolute;
+    z-index: 3;
+    top: 25%;
+    left: 25%;
+    width: 800px;
+    padding: 50px 130px;
+    background: #e0e0e0;
+    border-radius: 19px;
+}
+
+.remove_form-wrap form {
+    display: flex;
+    flex-direction: column;
+}
+
+.remove_form-wrap form input {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.remove_form-wrap [type="submit"] {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    cursor: pointer;
+    padding: 0;
+    width: 150px;
+    transition: all ease 0.3s;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 11px 33px;
+    background: #ffffff;
+    border-radius: 19px 19px 0 19px;
+}
+
+.close-btn:hover {
+    background: rgb(138, 9, 9);
+    cursor: pointer;
+    color: #fff;
+}
+
+.bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: #000;
+    z-index: 3;
+}

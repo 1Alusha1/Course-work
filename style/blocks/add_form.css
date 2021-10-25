@@ -1,0 +1,57 @@
+.addStudent {
+    position: absolute;
+    z-index: 3;
+    top: 5%;
+    left: 25%;
+    width: 800px;
+    padding: 60px 70px 0 70px;
+    background: #e0e0e0;
+    border-radius: 19px;
+}
+
+.add_form-wrap form select {
+    border-radius: 10px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.add_form-wrap form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 700px;
+}
+
+.add_form-wrap form input {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.add_form-wrap [type="submit"] {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    cursor: pointer;
+    padding: 0;
+    width: 150px;
+    transition: all ease 0.3s;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 11px 33px;
+    background: #ffffff;
+    border-radius: 19px 19px 0 19px;
+}
+
+.close-btn:hover {
+    background: rgb(138, 9, 9);
+    cursor: pointer;
+    color: #fff;
+}

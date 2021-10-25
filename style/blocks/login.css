@@ -1,0 +1,51 @@
+.login1 {
+    margin: 0 auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background: #e0e0e0;
+    width: 400px;
+    color: #000052;
+    font-size: 18px;
+}
+
+.login-wrap form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.login-wrap form input {
+    padding-left: 15px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.login-wrap form [type="submit"] {
+    margin-top: 20px;
+    font-size: 18px;
+    background: #c7c7c7;
+}
+
+.login-wrap form p {
+    margin: 10px;
+    font-size: 18px;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-back {
+    padding-top: 200px;
+    background: #000;
+    height: 100vh;
+}
+
+.index {
+    z-index: -1;
+}

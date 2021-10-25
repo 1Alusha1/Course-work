@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+input {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+}
+
+input::-ms-clear {
+    display: block;
+}
