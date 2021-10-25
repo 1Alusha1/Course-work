@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/core/core.css">
+</head>
+
+<body>
+    <div class="b-h"></div>
+    <div class="main-content">
+        <div class="side-bar">
+            <div class="icon">
+                <img src="/src/img/Безимени-4.png " alt=" ">
+                <img src="/src/img/Безимени-3.png " alt=" ">
+                <img src="/src/img/Безимени-2.png " alt=" ">
+                <img src="/src/img/Безимени-1.png " alt=" ">
+            </div>
+        </div>
+        <div class="content">
+            <div class="c-wrapper">
+                <div class="main-container">
+                    <div class="get-student">
+                        <select name="group">
+                            <option value="Группа">Группа</option>
+                            <option value="group034_1">034/1</option>
+                            <option value="group034_2">034/2</option>
+                        </select>
+                        <button>Вывести студентов</button>
+                    </div>
+                    <div class="list">
+                        <ul>
+                        </ul>
+                    </div>
+                    <div class="remove">
+                        <button class="hide">Удалить</button>
+                        <p class="count-student"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="remove_form hide">
+        <div class="close-btn">
+            X
+        </div>
+        <div class="remove_form-wrap">
+            <form>
+                <input type="text" name="cause" placeholder="причина исключения">
+                <input type="date" name="date" placeholder="дата исключения">
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+
+    <div class="addStudent hide">
+        <div class="add_form">
+            <div class="close-btn">
+                X
+            </div>
+            <div class="add_form-wrap">
+                <form>
+                    <select name="group">
+                        <option value="Группа">Группа</option>
+                        <option value="group034_1">034/1</option>
+                        <option value="group034_2">034/2</option>
+                    </select>
+                    <input type=" text" name="StudentName" placeholder="Имя студента">
+                    <input type="text" name="surName" placeholder=" Фамилия студента">
+                    <input type="text" name="lastName" placeholder="Отчество студента">
+                    <input type="date" name="dateOfBirth" placeholder="Дата рождения">
+                    <input type="text" name="homeAddress" placeholder="Домашний адрес">
+                    <input type="text" name="yearОfAdmission" placeholder="Год поступления">
+                    <input type="text" name="typeOfTraining" placeholder="Факултет студента">
+                    <input type="text" name="studentGroup" placeholder="Група студента">
+                    <input type="text" name="studentNumber" placeholder="Номер зачетки">
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <ul class="notification"></ul>
+    <div class="deletedStudent hide ">
+        <div class="add_form ">
+            <div class="close-btn ">
+                X
+            </div>
+            <div class="add_form-wrap dGroup ">
+                <form>
+                    <select name="dGroup ">
+                        <option value=" ">Группа</option>
+                        <option value="group034_1">034/1</option>
+                        <option value="group034_2">034/2</option>
+                        <input type="submit">
+                    </select>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/src/scripts/notification.js"></script>
+    <script src="/src/scripts/index.js"></script>
+    <script src="/src/scripts/login.js"></script>
+    <script src="/src/scripts/sideBar.js"></script>
+</body>
+
+</html>
